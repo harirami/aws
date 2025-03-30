@@ -1,2 +1,3 @@
 # aws
-Test repo to share the work with companies
+Test repo to share work and assignments with companies.
+
