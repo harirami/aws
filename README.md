@@ -14,6 +14,7 @@ This script allows you to query and fetch metadata for an EC2 instance running o
 - Python 3.x
 - `requests` library (for making HTTP requests)
 
+
 To install the `requests` library, you can use pip:
 
 ```bash
@@ -21,6 +22,7 @@ pip install requests
 
 
 
+
+## References
+
 References : https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/instancedata-data-retrieval.html
-
-
