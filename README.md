@@ -21,6 +21,46 @@ To install the `requests` library, you can use pip:
 pip install requests
 ```
 
+To install the `requests` library, you can use pip:
+
+```bash
+python3 get_metdata_basic.py  # to Get the full metadata 
+
+
+python3 get_metdata_basic.py  ami-id # to get prticular key value eg. ami-id
+
+
+# example output below
+
+{
+    "ami-id": "*******",
+    "ami-launch-index": "0",
+    "ami-manifest-path": "(unknown)",
+    "block-device-mapping/": "ami\nroot",
+    "events/": "maintenance/",
+    "hostname": "i*******",
+    "identity-credentials/": "ec2/",
+    "instance-action": "none",
+    "instance-id": "i-*******",
+    "instance-life-cycle": "on-demand",
+    "instance-type": "t2.micro",
+    "local-hostname": "*******.eu-west-2.compute.internal",
+    "local-ipv4": "172.31.28.199",
+    "mac": "*******",
+    "metrics/": "vhostmd",
+    "network/": "interfaces/",
+    "placement/": "availability-zone\navailability-zone-id\nregion",
+    "profile": "default-hvm",
+    "public-hostname": "e*******.compute.amazonaws.com",
+    "public-ipv4": "*******",
+    "public-keys/": "0=hari_test",
+    "reservation-id": "*******",
+    "security-groups": "launch-wizard-1",
+    "services/": "domain\npartition",
+    "system": "xen-on-nitro"
+}
+```
+
 
 
 ## References
